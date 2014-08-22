@@ -3,7 +3,7 @@
  * Component dependencies.
  */
 
-var spread = require('bredele/spread');
+var spread = require('bredele/sweep');
 
 
 /**
