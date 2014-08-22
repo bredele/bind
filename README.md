@@ -14,7 +14,17 @@ fn('wietrich');
 // => olivier wietrich
 ```
 
+This component is front-end (using [duo](http://duojs.org)) only for the unlucky folks that still support IE8. Otherwise you can use `bind` as following:
 
+```js
+var cb = function(first, last) {
+	console.log(first, last);
+};
+
+var fn = cb.bind(scope, 'olivier');
+fn('wietrich');
+// => olivier wietrich
+```
 
 ## License
 
