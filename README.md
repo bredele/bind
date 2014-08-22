@@ -8,7 +8,7 @@ function binding that supports prepending arguments
 ```js
 var bind = require('bredele/bind');
 var fn = bind(function(first, last) {
-	
+	console.log(first, last);
 }, scope, 'olivier');
 fn('wietrich');
 // => olivier wietrich
